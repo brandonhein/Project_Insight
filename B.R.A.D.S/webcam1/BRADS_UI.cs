@@ -81,13 +81,13 @@ namespace webcam1
                               "Low Temp: " + Math.Round((Convert.ToDouble(lowTemp) * 9 / 5 - 459.67), 0) + "°F\n\n" +
                               "Humidity: " + humidity + "% \n" +
                               "Pressure: " + pressure + " hpa \n";
-                File.AppendAllText(@"Project_Insight-master/ApplicationScheduler/ApplicationScheduler/bin/Debug/log.txt", DateTime.Now + " - BRADS - WeatherAPI - Success" + Environment.NewLine);
+                File.AppendAllText("C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\bin\Debug\log.txt", DateTime.Now + " - BRADS - WeatherAPI - Success" + Environment.NewLine);
             }
             catch
             {
                 label4.Text = "API Status: ERROR";
                 label5.Text = "API Error";
-                File.AppendAllText(@"Project_Insight-master/ApplicationScheduler/ApplicationScheduler/bin/Debug/log.txt", DateTime.Now + " - BRADS - WeatherAPI - ERROR " + Environment.NewLine);
+                File.AppendAllText(@"C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\bin\Debug\log.txt", DateTime.Now + " - BRADS - WeatherAPI - ERROR " + Environment.NewLine);
             }
         }
 
@@ -115,7 +115,7 @@ namespace webcam1
             pictureBox1.Image.Save(saveFile);
             label8.Visible = true;
             label8.Text = "Picture saved! FileName= " + saveFile;
-            File.AppendAllText(@"Project_Insight-master/ApplicationScheduler/ApplicationScheduler/bin/Debug/log.txt", DateTime.Now + " - BRADS - PictureTaken - CAM:" + comboBox1.SelectedIdex + Environment.NewLine);
+            File.AppendAllText(@"C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\bin\Debug\log.txt", DateTime.Now + " - BRADS - PictureTaken - CAM:" + comboBox1.SelectedIndex + Environment.NewLine);
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
