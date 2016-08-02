@@ -1,2 +1,2 @@
-DateTime - ResultPing - ResponseTime
-7/31/2016 1:36:56 PM - Internet - 35ms
+DateTime - Application - Event - Result
+7/31/2016 1:36:56 PM - PingService - Ping/Internet - 35ms
