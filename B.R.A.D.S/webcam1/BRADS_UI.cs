@@ -14,8 +14,6 @@ using System.Net;
 using Newtonsoft.Json.Linq;
 using System.Runtime.Serialization;
 
-
-
 namespace webcam1
 {
     public partial class BRADS_UI : Form
@@ -23,7 +21,6 @@ namespace webcam1
         public BRADS_UI()
         {
             InitializeComponent();
-            
         }
         public static string getBetween(string strSource, string strStart, string strEnd)
         {
@@ -75,7 +72,6 @@ namespace webcam1
             string weatherCondition = getBetween(jsonText, "main:", ",des");
             string description = getBetween(jsonText, "description:", ",");
             
-            
             label5.Text = "Current: " + weatherCondition + "\n" +
                           "Descriptive: " + description + "\n\n" +
                           "Current Temp: " + Math.Round((Convert.ToDouble(temp) * 9 / 5 - 459.67), 2) + "°F\n" +
@@ -83,18 +79,6 @@ namespace webcam1
                           "Low Temp: " + Math.Round((Convert.ToDouble(lowTemp) * 9 / 5 - 459.67), 0) + "°F\n\n" +
                           "Humidity: " + humidity + "% \n" +
                           "Pressure: " + pressure + " hpa \n";
-            
-
-            
-            //label6.Text = coord;
-            
-            //reader.Close();
-           // dataStream.Close();
-           // response.Close();
-
-
-            
-            
         }
 
         private void button1_Click(object sender, EventArgs e)
