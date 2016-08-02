@@ -50,35 +50,45 @@ namespace webcam1
             }
             comboBox1.SelectedIndex = 0;
 
-            WebRequest request;
-            HttpWebResponse response;
-            Stream dataStream = null;
-            StreamReader reader = null;
-            request = WebRequest.Create("http://api.openweathermap.org/data/2.5/weather?q=rogerscity,mi&APPID=750ea949f23d7f00ad728e07f648018e");
-            response = (HttpWebResponse)request.GetResponse();
-            label4.Text = "API Status: " + (response.StatusDescription);
-            dataStream = response.GetResponseStream();
-            reader = new StreamReader(dataStream);
-            string jsonText = reader.ReadToEnd();
-            
-            jsonText = jsonText.Replace("\"", "");
-            //jsonText = jsonText.Replace(",", "");
-            //jsonText = jsonText.Replace("}", "");
-            string humidity = getBetween(jsonText, "humidity:", ",");
-            string temp = getBetween(jsonText, "temp:", ",");
-            string highTemp = getBetween(jsonText, "temp_max:", "},");
-            string lowTemp = getBetween(jsonText, "temp_min:", ",");
-            string pressure = getBetween(jsonText, "pressure:", ",");
-            string weatherCondition = getBetween(jsonText, "main:", ",des");
-            string description = getBetween(jsonText, "description:", ",");
-            
-            label5.Text = "Current: " + weatherCondition + "\n" +
-                          "Descriptive: " + description + "\n\n" +
-                          "Current Temp: " + Math.Round((Convert.ToDouble(temp) * 9 / 5 - 459.67), 2) + "°F\n" +
-                          "High Temp: " + Math.Round((Convert.ToDouble(highTemp) * 9 / 5 - 459.67), 0) + "°F\n" +
-                          "Low Temp: " + Math.Round((Convert.ToDouble(lowTemp) * 9 / 5 - 459.67), 0) + "°F\n\n" +
-                          "Humidity: " + humidity + "% \n" +
-                          "Pressure: " + pressure + " hpa \n";
+            try
+            {
+                WebRequest request;
+                HttpWebResponse response;
+                Stream dataStream = null;
+                StreamReader reader = null;
+                request = WebRequest.Create("http://api.openweathermap.org/data/2.5/weather?q=rogerscity,mi&APPID=750ea949f23d7f00ad728e07f648018e");
+                response = (HttpWebResponse)request.GetResponse();
+                label4.Text = "API Status: " + (response.StatusDescription);
+                dataStream = response.GetResponseStream();
+                reader = new StreamReader(dataStream);
+                string jsonText = reader.ReadToEnd();
+                
+                jsonText = jsonText.Replace("\"", "");
+                //jsonText = jsonText.Replace(",", "");
+                //jsonText = jsonText.Replace("}", "");
+                string humidity = getBetween(jsonText, "humidity:", ",");
+                string temp = getBetween(jsonText, "temp:", ",");
+                string highTemp = getBetween(jsonText, "temp_max:", "},");
+                string lowTemp = getBetween(jsonText, "temp_min:", ",");
+                string pressure = getBetween(jsonText, "pressure:", ",");
+                string weatherCondition = getBetween(jsonText, "main:", ",des");
+                string description = getBetween(jsonText, "description:", ",");
+                
+                label5.Text = "Current: " + weatherCondition + "\n" +
+                              "Descriptive: " + description + "\n\n" +
+                              "Current Temp: " + Math.Round((Convert.ToDouble(temp) * 9 / 5 - 459.67), 2) + "°F\n" +
+                              "High Temp: " + Math.Round((Convert.ToDouble(highTemp) * 9 / 5 - 459.67), 0) + "°F\n" +
+                              "Low Temp: " + Math.Round((Convert.ToDouble(lowTemp) * 9 / 5 - 459.67), 0) + "°F\n\n" +
+                              "Humidity: " + humidity + "% \n" +
+                              "Pressure: " + pressure + " hpa \n";
+                File.AppendAllText(@"Project_Insight-master/ApplicationScheduler/ApplicationScheduler/bin/Debug/log.txt", DateTime.Now + " - BRADS - WeatherAPI - Success" + Environment.NewLine);
+            }
+            catch
+            {
+                label4.Text = "API Status: ERROR";
+                label5.Text = "API Error";
+                File.AppendAllText(@"Project_Insight-master/ApplicationScheduler/ApplicationScheduler/bin/Debug/log.txt", DateTime.Now + " - BRADS - WeatherAPI - ERROR " + Environment.NewLine);
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -105,6 +115,7 @@ namespace webcam1
             pictureBox1.Image.Save(saveFile);
             label8.Visible = true;
             label8.Text = "Picture saved! FileName= " + saveFile;
+            File.AppendAllText(@"Project_Insight-master/ApplicationScheduler/ApplicationScheduler/bin/Debug/log.txt", DateTime.Now + " - BRADS - PictureTaken - CAM:" + comboBox1.SelectedIdex + Environment.NewLine);
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
