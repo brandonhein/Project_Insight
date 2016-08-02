@@ -69,7 +69,7 @@ namespace webcam1
             //label4.Text = saveFile;
             pictureBox1.Image.Save(saveFile);
             pictureBox1.Image.Save(mostRecent);
-            File.AppendAllText(@"Project_Insight-master/ApplicationScheduler/ApplicationScheduler/bin/Debug/log.txt", DateTime.Now + " - APPS - Picture taken and saved from CAM:" + comboBox1.SelectedIndex + " - " + Environment.NewLine);
+            File.AppendAllText(@"C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\bin\Debug\log.txt", DateTime.Now + " - APPS - PictureTaken - CAM:" + comboBox1.SelectedIndex + Environment.NewLine);
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
