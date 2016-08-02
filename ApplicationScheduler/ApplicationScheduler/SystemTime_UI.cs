@@ -23,16 +23,25 @@ namespace ApplicationScheduler
         {
             label1.Text = DateTime.Now.ToString("HHmmss");
 
-            //Run A.P.P.S.
-            if (label1.Text == "121830" || label1.Text == "123700") //time of day 24hour
+            //Run A.P.P.S. (7,8,9,11,1,3,5,7,8,9)
+            if (label1.Text == "080000" || label1.Text == "090000" || label1.Text == "110000" || label1.Text == "130000"
+                || label1.Text == "150000" || label1.Text == "170000" || label1.Text == "190000" || label1.Text == "200000"
+                || label1.Text == "210000" || label1.Text == "070000") //time of day 24hour
             {
                 Process programStart = new Process();
                 programStart.StartInfo.FileName = @"Program location";
                 programStart.Start();
             }
             
-            //
-            if (button2.Enabled == true && (label1.Text == "133656" || label1.Text == "225440"))
+            //so many OR's tied to the button, want to be able to turn off this service when i want.
+            if (button2.Enabled == true && (   label1.Text == "001500" || label1.Text == "011500" || label1.Text == "021500"
+                                            || label1.Text == "031500" || label1.Text == "041500" || label1.Text == "051500"
+                                            || label1.Text == "061500" || label1.Text == "071500" || label1.Text == "081500"
+                                            || label1.Text == "091500" || label1.Text == "101500" || label1.Text == "111500"
+                                            || label1.Text == "121500" || label1.Text == "131500" || label1.Text == "141500"
+                                            || label1.Text == "151500" || label1.Text == "161500" || label1.Text == "171500"
+                                            || label1.Text == "181500" || label1.Text == "191500" || label1.Text == "201500"
+                                            || label1.Text == "211500" || label1.Text == "221500" || label1.Text == "231500"))
             {
                 try
                 {
@@ -46,9 +55,9 @@ namespace ApplicationScheduler
                     try
                     {
                         Ping pingClass = new Ping();
-                        PingReply pingReply = pingClass.Send("www.routerlogin.com");
+                        PingReply pingReply = pingClass.Send("www.routerlogin.com"); //att.elevate
                         File.AppendAllText(@"log.txt", DateTime.Now + " - Router Only - " + pingReply.RoundtripTime.ToString() + "ms" + Environment.NewLine);
-                        button3_Click(sender, e);
+                        button3_Click(sender, e);//run the Macro to reset router
                     }
                     catch (System.Net.NetworkInformation.PingException)
                     {
