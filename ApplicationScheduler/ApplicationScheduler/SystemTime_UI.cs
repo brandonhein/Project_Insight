@@ -76,12 +76,14 @@ namespace ApplicationScheduler
         {
             button1.Enabled = false;
             button2.Enabled = true;
+            File.AppendAllText(@"C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\bin\Debug\log.txt", DateTime.Now + " - PingService - Service ON - Confirm" + Environment.NewLine);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             button2.Enabled = false;
             button1.Enabled = true;
+            File.AppendAllText(@"C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\bin\Debug\log.txt", DateTime.Now + " - PingService - Service OFF - Confirm" + Environment.NewLine);
         }
 
         private void button3_Click(object sender, EventArgs e)
