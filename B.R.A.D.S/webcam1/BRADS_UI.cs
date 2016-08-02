@@ -81,7 +81,7 @@ namespace webcam1
                               "Low Temp: " + Math.Round((Convert.ToDouble(lowTemp) * 9 / 5 - 459.67), 0) + "°F\n\n" +
                               "Humidity: " + humidity + "% \n" +
                               "Pressure: " + pressure + " hpa \n";
-                File.AppendAllText("C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\bin\Debug\log.txt", DateTime.Now + " - BRADS - WeatherAPI - Success" + Environment.NewLine);
+                File.AppendAllText(@"C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\bin\Debug\log.txt", DateTime.Now + " - BRADS - WeatherAPI - Success" + Environment.NewLine);
             }
             catch
             {
