@@ -19,7 +19,6 @@ namespace webcam1
         public APPS_UI()
         {
             InitializeComponent();
-            
         }
         public static string getBetween(string strSource, string strStart, string strEnd)
         {
