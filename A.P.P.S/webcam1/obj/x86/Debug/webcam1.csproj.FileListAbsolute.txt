@@ -1,0 +1,35 @@
+C:\Users\Brandon.Brandon-PC\Documents\Visual Studio 2010\Projects\webcam1\webcam1\obj\x86\Debug\webcam1.Form1.resources
+C:\Users\Brandon.Brandon-PC\Documents\Visual Studio 2010\Projects\webcam1\webcam1\obj\x86\Debug\webcam1.Properties.Resources.resources
+C:\Users\Brandon.Brandon-PC\Documents\Visual Studio 2010\Projects\webcam1\webcam1\obj\x86\Debug\webcam1.csproj.GenerateResource.Cache
+C:\Users\Brandon.Brandon-PC\documents\visual studio 2010\Projects\webcam1\webcam1\bin\Debug\webcam1.exe
+C:\Users\Brandon.Brandon-PC\documents\visual studio 2010\Projects\webcam1\webcam1\bin\Debug\webcam1.pdb
+C:\Users\Brandon.Brandon-PC\documents\visual studio 2010\Projects\webcam1\webcam1\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Brandon.Brandon-PC\documents\visual studio 2010\Projects\webcam1\webcam1\bin\Debug\AForge.Video.dll
+C:\Users\Brandon.Brandon-PC\documents\visual studio 2010\Projects\webcam1\webcam1\bin\Debug\AForge.dll
+C:\Users\Brandon.Brandon-PC\documents\visual studio 2010\Projects\webcam1\webcam1\bin\Debug\AForge.Video.xml
+C:\Users\Brandon.Brandon-PC\documents\visual studio 2010\Projects\webcam1\webcam1\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Brandon.Brandon-PC\documents\visual studio 2010\Projects\webcam1\webcam1\bin\Debug\AForge.xml
+C:\Users\Brandon.Brandon-PC\documents\visual studio 2010\Projects\webcam1\webcam1\obj\x86\Debug\webcam1.csprojResolveAssemblyReference.cache
+C:\Users\Brandon.Brandon-PC\documents\visual studio 2010\Projects\webcam1\webcam1\obj\x86\Debug\webcam1.exe
+C:\Users\Brandon.Brandon-PC\documents\visual studio 2010\Projects\webcam1\webcam1\obj\x86\Debug\webcam1.pdb
+C:\Users\Brandon.Brandon-PC\documents\visual studio 2010\Projects\webcam1\webcam1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Brandon.Brandon-PC\documents\visual studio 2010\Projects\webcam1\webcam1\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Brandon.Brandon-PC\documents\visual studio 2010\Projects\webcam1\webcam1\bin\Debug\Newtonsoft.Json.xml
+\\usb\USB_Storage\Brandon\webcam2\webcam1\obj\x86\Debug\webcam1.exe
+\\usb\USB_Storage\Brandon\webcam2\webcam1\obj\x86\Debug\webcam1.pdb
+\\usb\USB_Storage\Brandon\webcam2\webcam1\bin\Debug\webcam1.exe
+\\usb\USB_Storage\Brandon\webcam2\webcam1\bin\Debug\webcam1.pdb
+\\usb\USB_Storage\Brandon\webcam2\webcam1\bin\Debug\AForge.Video.DirectShow.dll
+\\usb\USB_Storage\Brandon\webcam2\webcam1\bin\Debug\AForge.Video.dll
+\\usb\USB_Storage\Brandon\webcam2\webcam1\bin\Debug\AForge.dll
+\\usb\USB_Storage\Brandon\webcam2\webcam1\bin\Debug\AForge.Video.xml
+\\usb\USB_Storage\Brandon\webcam2\webcam1\bin\Debug\AForge.Video.DirectShow.xml
+\\usb\USB_Storage\Brandon\webcam2\webcam1\bin\Debug\Newtonsoft.Json.pdb
+\\usb\USB_Storage\Brandon\webcam2\webcam1\bin\Debug\Newtonsoft.Json.xml
+\\usb\USB_Storage\Brandon\webcam2\webcam1\bin\Debug\AForge.xml
+\\usb\USB_Storage\Brandon\webcam2\webcam1\obj\x86\Debug\webcam1.csprojResolveAssemblyReference.cache
+\\usb\USB_Storage\Brandon\webcam2\webcam1\obj\x86\Debug\webcam1.Form1.resources
+\\usb\USB_Storage\Brandon\webcam2\webcam1\obj\x86\Debug\webcam1.Properties.Resources.resources
+\\usb\USB_Storage\Brandon\webcam2\webcam1\obj\x86\Debug\webcam1.csproj.GenerateResource.Cache
+\\usb\USB_Storage\Brandon\ProjectInsight\A.P.P.S\webcam1\obj\x86\Debug\webcam1.exe
+\\usb\USB_Storage\Brandon\ProjectInsight\A.P.P.S\webcam1\obj\x86\Debug\webcam1.pdb

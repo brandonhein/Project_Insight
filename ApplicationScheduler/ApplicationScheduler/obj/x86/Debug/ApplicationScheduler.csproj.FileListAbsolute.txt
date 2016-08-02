@@ -1,0 +1,16 @@
+c:\users\brandon.brandon-pc\documents\visual studio 2010\Projects\ApplicationScheduler\ApplicationScheduler\bin\Debug\ApplicationScheduler.exe
+c:\users\brandon.brandon-pc\documents\visual studio 2010\Projects\ApplicationScheduler\ApplicationScheduler\bin\Debug\ApplicationScheduler.pdb
+c:\users\brandon.brandon-pc\documents\visual studio 2010\Projects\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.Form1.resources
+c:\users\brandon.brandon-pc\documents\visual studio 2010\Projects\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.Properties.Resources.resources
+c:\users\brandon.brandon-pc\documents\visual studio 2010\Projects\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.csproj.GenerateResource.Cache
+c:\users\brandon.brandon-pc\documents\visual studio 2010\Projects\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.exe
+c:\users\brandon.brandon-pc\documents\visual studio 2010\Projects\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.pdb
+C:\Users\Brandon.Brandon-PC\Documents\Visual Studio 2010\Projects\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.csprojResolveAssemblyReference.cache
+\\usb\USB_Storage\Brandon\ProjectInsight\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.exe
+\\usb\USB_Storage\Brandon\ProjectInsight\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.pdb
+\\usb\USB_Storage\Brandon\ProjectInsight\ApplicationScheduler\ApplicationScheduler\bin\Debug\ApplicationScheduler.exe
+\\usb\USB_Storage\Brandon\ProjectInsight\ApplicationScheduler\ApplicationScheduler\bin\Debug\ApplicationScheduler.pdb
+\\usb\USB_Storage\Brandon\ProjectInsight\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.csprojResolveAssemblyReference.cache
+\\usb\USB_Storage\Brandon\ProjectInsight\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.Form1.resources
+\\usb\USB_Storage\Brandon\ProjectInsight\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.Properties.Resources.resources
+\\usb\USB_Storage\Brandon\ProjectInsight\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.csproj.GenerateResource.Cache
