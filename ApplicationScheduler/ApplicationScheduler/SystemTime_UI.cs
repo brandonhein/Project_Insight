@@ -47,7 +47,7 @@ namespace ApplicationScheduler
                 {
                     Ping pingClass = new Ping();
                     PingReply pingReply = pingClass.Send("8.8.8.8");
-                    File.AppendAllText(@"Project_Insight-master/ApplicationScheduler/ApplicationScheduler/bin/Debug/log.txt", DateTime.Now + " - PingService - Ping/Internet - " + pingReply.RoundtripTime.ToString() + "ms" + Environment.NewLine);
+                    File.AppendAllText(@"C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\bin\Debug\log.txt", DateTime.Now + " - PingService - Ping/Internet - " + pingReply.RoundtripTime.ToString() + "ms" + Environment.NewLine);
                 }
                 
                 catch (System.Net.NetworkInformation.PingException)
@@ -56,12 +56,12 @@ namespace ApplicationScheduler
                     {
                         Ping pingClass = new Ping();
                         PingReply pingReply = pingClass.Send("www.routerlogin.com"); //att.elevate
-                        File.AppendAllText(@"Project_Insight-master/ApplicationScheduler/ApplicationScheduler/bin/Debug/log.txt", DateTime.Now + " - PingService - Ping/Router - " + pingReply.RoundtripTime.ToString() + "ms" + Environment.NewLine);
+                        File.AppendAllText(@"C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\bin\Debug\log.txt", DateTime.Now + " - PingService - Ping/Router - " + pingReply.RoundtripTime.ToString() + "ms" + Environment.NewLine);
                         button3_Click(sender, e);//run the Macro to reset router
                     }
                     catch (System.Net.NetworkInformation.PingException)
                     {
-                        File.AppendAllText(@"Project_Insight-master/ApplicationScheduler/ApplicationScheduler/bin/Debug/log.txt", DateTime.Now + " - PingService - Ping/No Connection - null - " + Environment.NewLine);
+                        File.AppendAllText(@"C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\bin\Debug\log.txt", DateTime.Now + " - PingService - Ping/No Connection - null - " + Environment.NewLine);
                     }
                 }
             }
