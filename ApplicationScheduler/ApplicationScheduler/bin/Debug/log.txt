@@ -1,2 +1,17 @@
 DateTime - Application - Event - Result
 7/31/2016 1:36:56 PM - PingService - Ping/Internet - 35ms
+8/2/2016 7:46:39 PM - BRADS - WeatherAPI - Success
+8/2/2016 7:46:42 PM - BRADS - PictureTaken - CAM:0
+8/2/2016 7:51:05 PM - PingService - Service ON - Confirm
+8/2/2016 7:51:08 PM - PingService - Service OFF - Confirm
+8/2/2016 7:52:52 PM - PingService - Service ON - Confirm
+8/2/2016 7:52:53 PM - PingService - Service OFF - Confirm
+8/2/2016 7:52:54 PM - PingService - Service ON - Confirm
+8/2/2016 7:52:55 PM - PingService - Service OFF - Confirm
+8/2/2016 7:52:56 PM - PingService - Service ON - Confirm
+8/2/2016 7:54:03 PM - BRADS - WeatherAPI - Success
+8/2/2016 7:54:08 PM - BRADS - PictureTaken - CAM:0
+8/2/2016 7:55:44 PM - APPS - PictureTaken - CAM:0
+8/2/2016 7:56:35 PM - BRADS - WeatherAPI - Success
+8/2/2016 7:56:39 PM - BRADS - PictureTaken - CAM:0
+8/2/2016 7:58:19 PM - APPS - PictureTaken - CAM:0

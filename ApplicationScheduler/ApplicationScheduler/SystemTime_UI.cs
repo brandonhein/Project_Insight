@@ -47,7 +47,7 @@ namespace ApplicationScheduler
                 {
                     Ping pingClass = new Ping();
                     PingReply pingReply = pingClass.Send("8.8.8.8");
-                    File.AppendAllText(@"C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\bin\Debug\log.txt", DateTime.Now + " - PingService - Ping/Internet - " + pingReply.RoundtripTime.ToString() + "ms" + Environment.NewLine);
+                    File.AppendAllText(@"log.txt", DateTime.Now + " - PingService - Ping/Internet - " + pingReply.RoundtripTime.ToString() + "ms" + Environment.NewLine);
                 }
                 
                 catch (System.Net.NetworkInformation.PingException)
@@ -56,12 +56,12 @@ namespace ApplicationScheduler
                     {
                         Ping pingClass = new Ping();
                         PingReply pingReply = pingClass.Send("www.routerlogin.com"); //att.elevate
-                        File.AppendAllText(@"C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\bin\Debug\log.txt", DateTime.Now + " - PingService - Ping/Router - " + pingReply.RoundtripTime.ToString() + "ms" + Environment.NewLine);
+                        File.AppendAllText(@"log.txt", DateTime.Now + " - PingService - Ping/Router - " + pingReply.RoundtripTime.ToString() + "ms" + Environment.NewLine);
                         button3_Click(sender, e);//run the Macro to reset router
                     }
                     catch (System.Net.NetworkInformation.PingException)
                     {
-                        File.AppendAllText(@"C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\bin\Debug\log.txt", DateTime.Now + " - PingService - Ping/No Connection - null - " + Environment.NewLine);
+                        File.AppendAllText(@"log.txt", DateTime.Now + " - PingService - Ping/No Connection - null - " + Environment.NewLine);
                     }
                 }
             }
@@ -76,14 +76,14 @@ namespace ApplicationScheduler
         {
             button1.Enabled = false;
             button2.Enabled = true;
-            File.AppendAllText(@"C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\bin\Debug\log.txt", DateTime.Now + " - PingService - Service ON - Confirm" + Environment.NewLine);
+            File.AppendAllText(@"log.txt", DateTime.Now + " - PingService - Service ON - Confirm" + Environment.NewLine);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             button2.Enabled = false;
             button1.Enabled = true;
-            File.AppendAllText(@"C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\bin\Debug\log.txt", DateTime.Now + " - PingService - Service OFF - Confirm" + Environment.NewLine);
+            File.AppendAllText(@"log.txt", DateTime.Now + " - PingService - Service OFF - Confirm" + Environment.NewLine);
         }
 
         private void button3_Click(object sender, EventArgs e)
