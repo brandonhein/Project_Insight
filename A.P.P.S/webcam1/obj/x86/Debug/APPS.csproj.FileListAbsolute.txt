@@ -12,3 +12,17 @@
 \\usb\USB_Storage\Brandon\ProjectInsight\A.P.P.S\webcam1\obj\x86\Debug\APPS.csproj.GenerateResource.Cache
 \\usb\USB_Storage\Brandon\ProjectInsight\A.P.P.S\webcam1\obj\x86\Debug\webcam1.exe
 \\usb\USB_Storage\Brandon\ProjectInsight\A.P.P.S\webcam1\obj\x86\Debug\webcam1.pdb
+C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\A.P.P.S\webcam1\obj\x86\Debug\webcam1.exe
+C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\A.P.P.S\webcam1\obj\x86\Debug\webcam1.pdb
+C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\A.P.P.S\webcam1\bin\Debug\webcam1.exe
+C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\A.P.P.S\webcam1\bin\Debug\webcam1.pdb
+C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\A.P.P.S\webcam1\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\A.P.P.S\webcam1\bin\Debug\AForge.Video.dll
+C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\A.P.P.S\webcam1\bin\Debug\AForge.dll
+C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\A.P.P.S\webcam1\bin\Debug\AForge.Video.xml
+C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\A.P.P.S\webcam1\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\A.P.P.S\webcam1\bin\Debug\AForge.xml
+C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\A.P.P.S\webcam1\obj\x86\Debug\APPS.csprojResolveAssemblyReference.cache
+C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\A.P.P.S\webcam1\obj\x86\Debug\webcam1.APPS_UI.resources
+C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\A.P.P.S\webcam1\obj\x86\Debug\webcam1.Properties.Resources.resources
+C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\A.P.P.S\webcam1\obj\x86\Debug\APPS.csproj.GenerateResource.Cache
