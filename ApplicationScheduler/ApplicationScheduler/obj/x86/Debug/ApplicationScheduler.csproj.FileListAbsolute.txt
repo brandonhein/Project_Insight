@@ -22,3 +22,11 @@ C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\ApplicationScheduler\
 C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.Form1.resources
 C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.Properties.Resources.resources
 C:\Users\Brandon.Brandon-PC\Desktop\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.csproj.GenerateResource.Cache
+\\usb\USB_Storage\Brandon\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.exe
+\\usb\USB_Storage\Brandon\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.pdb
+\\usb\USB_Storage\Brandon\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\bin\Debug\ApplicationScheduler.exe
+\\usb\USB_Storage\Brandon\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\bin\Debug\ApplicationScheduler.pdb
+\\usb\USB_Storage\Brandon\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.csprojResolveAssemblyReference.cache
+\\usb\USB_Storage\Brandon\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.Form1.resources
+\\usb\USB_Storage\Brandon\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.Properties.Resources.resources
+\\usb\USB_Storage\Brandon\Project_Insight-master\ApplicationScheduler\ApplicationScheduler\obj\x86\Debug\ApplicationScheduler.csproj.GenerateResource.Cache
