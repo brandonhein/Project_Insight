@@ -1,0 +1,9 @@
+\\mi\dfs\users\bhein1\documents\visual studio 2013\Projects\ReadGmail\ReadGmail\bin\Debug\ReadGmail.exe.config
+\\mi\dfs\users\bhein1\documents\visual studio 2013\Projects\ReadGmail\ReadGmail\obj\Debug\ReadGmail.csprojResolveAssemblyReference.cache
+\\mi\dfs\users\bhein1\documents\visual studio 2013\Projects\ReadGmail\ReadGmail\obj\Debug\ReadGmail.Form1.resources
+\\mi\dfs\users\bhein1\documents\visual studio 2013\Projects\ReadGmail\ReadGmail\obj\Debug\ReadGmail.Properties.Resources.resources
+\\mi\dfs\users\bhein1\documents\visual studio 2013\Projects\ReadGmail\ReadGmail\obj\Debug\ReadGmail.csproj.GenerateResource.Cache
+\\mi\dfs\users\bhein1\documents\visual studio 2013\Projects\ReadGmail\ReadGmail\bin\Debug\ReadGmail.exe
+\\mi\dfs\users\bhein1\documents\visual studio 2013\Projects\ReadGmail\ReadGmail\bin\Debug\ReadGmail.pdb
+\\mi\dfs\users\bhein1\documents\visual studio 2013\Projects\ReadGmail\ReadGmail\obj\Debug\ReadGmail.exe
+\\mi\dfs\users\bhein1\documents\visual studio 2013\Projects\ReadGmail\ReadGmail\obj\Debug\ReadGmail.pdb
